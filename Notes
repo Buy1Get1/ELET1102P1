@@ -10,4 +10,9 @@ Also, thoughts one the project
 #14:41-12 Nov 2020- Getting the hang of push,pull and commit
 
 ----------------[please comment and repost]--------------------------
-
+#12:06-19 Nov 2020- I found out that there's a connection or rather a disconnection error with the math.h library and the libm.a sublibrary/library. I can, however, use my console to compile the code by running the following lines:
+cd /path/to/file
+gcc savingsCalc.c -o savingsCalc -lm
+./savingsCalc
+This is for the savings calculator, but I may need it for this project as well.
+----------------[please comment and repost]--------------------------
