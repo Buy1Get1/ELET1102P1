@@ -2,8 +2,18 @@
     Aidan A. && Jesse C.
 	"Project 1"  Ver - 3.1
 	Nov 23rd, 2020
-		 
-	 * Restaurant sitting schematic - 5 points
+==============================[COMPLETED]========================================
+---------Write a code to calculate the cost of insurance depending on the user age. 
+	For any driver younger than 25 the yearly insurance cost is $5000/year. 
+	After their 25th birthday the insurance drop to $3500.  
+	If the record of good driving continues, the driver will get a 2% discount.  
+	Between 35 and 50, the insurance will drop to $2,800.  
+	After 50, the insurance will stay steady at a cost of $1500 a year. - 20 points
+	 * 
+	//Write the code for the decision making - 20 points
+    //Which number of the 3 is the bigger number  - 5 points
+	 * 
+	Restaurant sitting schematic - 5 points
     Diagram of expressions and statements for the restaurant sitting problem - 5 points.  
 	^ This is a flow chart of the decision making
     1 person – seat at bar
@@ -13,16 +23,7 @@
 	7 – 8 people – seat at booth
 	More than 8 ask them to wait 45 minutes
 	or make a reservation for later on
-	 * 
-==============================[COMPLETED]========================================
----------Write a code to calculate the cost of insurance depending on the user age. 
-	For any driver younger than 25 the yearly insurance cost is $5000/year. 
-	After their 25th birthday the insurance drop to $3500.  
-	If the record of good driving continues, the driver will get a 2% discount.  
-	Between 35 and 50, the insurance will drop to $2,800.  
-	After 50, the insurance will stay steady at a cost of $1500 a year. - 20 points
-	//Write the code for the decision making - 20 points
-    //Which number of the 3 is the bigger number  - 5 points
+	^ use if, else if, to 'seat' user's party properly
 */
 #include <stdio.h>
 
