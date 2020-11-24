@@ -13,7 +13,7 @@ CurrentFileName        :=
 CurrentFilePath        :=
 CurrentFileFullPath    :=
 User                   :=Buy1Get1
-Date                   :=11/19/20
+Date                   :=11/23/20
 CodeLitePath           :=/home/b1/.codelite
 LinkerName             :=gcc
 SharedObjectLinkerName :=gcc -shared -fPIC
@@ -60,7 +60,7 @@ AS       := as
 ## User defined environment variables
 ##
 CodeLiteDir:=/usr/share/codelite
-Objects0=$(IntermediateDirectory)/main.c$(ObjectSuffix) 
+Objects0=$(IntermediateDirectory)/projOne.c$(ObjectSuffix) 
 
 
 
@@ -91,13 +91,13 @@ PreBuild:
 ##
 ## Objects
 ##
-$(IntermediateDirectory)/main.c$(ObjectSuffix): main.c $(IntermediateDirectory)/main.c$(DependSuffix)
-	$(CC) $(SourceSwitch) "/home/b1/Desktop/Dev/notePad/foolinAround/projectOne/main.c" $(CFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.c$(ObjectSuffix) $(IncludePath)
-$(IntermediateDirectory)/main.c$(DependSuffix): main.c
-	@$(CC) $(CFLAGS) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/main.c$(ObjectSuffix) -MF$(IntermediateDirectory)/main.c$(DependSuffix) -MM main.c
+$(IntermediateDirectory)/projOne.c$(ObjectSuffix): projOne.c $(IntermediateDirectory)/projOne.c$(DependSuffix)
+	$(CC) $(SourceSwitch) "/home/b1/Desktop/Dev/notePad/foolinAround/projectOne/projOne.c" $(CFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/projOne.c$(ObjectSuffix) $(IncludePath)
+$(IntermediateDirectory)/projOne.c$(DependSuffix): projOne.c
+	@$(CC) $(CFLAGS) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/projOne.c$(ObjectSuffix) -MF$(IntermediateDirectory)/projOne.c$(DependSuffix) -MM projOne.c
 
-$(IntermediateDirectory)/main.c$(PreprocessSuffix): main.c
-	$(CC) $(CFLAGS) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/main.c$(PreprocessSuffix) main.c
+$(IntermediateDirectory)/projOne.c$(PreprocessSuffix): projOne.c
+	$(CC) $(CFLAGS) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/projOne.c$(PreprocessSuffix) projOne.c
 
 
 -include $(IntermediateDirectory)/*$(DependSuffix)
