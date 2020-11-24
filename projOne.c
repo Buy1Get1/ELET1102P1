@@ -1,5 +1,5 @@
 /*
-    Aidan A. && Jessie C.
+    Aidan A. && Jesse C.
 	"Project 1"  Ver - 3.1
 	Nov 23rd, 2020
 		 
